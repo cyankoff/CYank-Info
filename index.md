@@ -10,5 +10,6 @@ The first week of class have helped me learn quite a bit about both the things I
 ## Works Cited
 
 Gillespie, T. (2006) Engineering a Principle: 'End-to-End' in the Design of the Internet. 
-/t Social Studies of Science, Vol. 36, No. 3. Sage Publications
+	Social Studies of Science, Vol. 36, No. 3. Sage Publications
+	
 How to Build a Low-tech Internet, Low-Tech Magazine
