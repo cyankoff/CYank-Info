@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)file:///Users/colsonyankoff/Desktop/HTML%20Project/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
+<title>W3.CSS</title>
+<meta name="show" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="./SelfPortrait_files/w3.css">
+<style>
+body {
+    background-color: lightcyan
+} 
+.slides {
+    display:none;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%; 
+    border-radius: 90px;
+}
+    
+.wa {
+    display:none;
+    margin-left: auto;
+    margin-right: auto;
+    width:75%; 
+    border-radius: 90px;
+    position:relative;
+    top:120px;
+}
+    
+.vids {
+    margin-left: auto; 
+    margin-right: auto;
+    width:50%;
+    position:relative;
+    top:60px;
+}
+    
+</style>
+</head>
+
+<body>
+
+<h1 class="w3-center">"Just a Glimpse"</h1>
+
+<div class="w3-content w3-section">
+    <img class="slides w3-animate-fading" src="file:///Users/colsonyankoff/Desktop/HTML%20Project/CDA00.PNG" style="display: none;">
+    <img class="slides w3-animate-fading" src="file:///Users/colsonyankoff/Desktop/HTML%20Project/CDA01.png" style="display: none;">
+    <img class="slides w3-animate-fading" src="file:///Users/colsonyankoff/Desktop/HTML%20Project/CDA02.PNG" style="display: none;">
+    <img class="slides w3-animate-fading" src="file:///Users/colsonyankoff/Desktop/HTML%20Project/CDA05.PNG" style="display: none;">
+    <img class="slides w3-animate-fading" src="file:///Users/colsonyankoff/Desktop/HTML%20Project/CDA03.PNG" style="display: none;">
+    <img class="slides w3-animate-fading" src="file:///Users/colsonyankoff/Desktop/HTML%20Project/CDA04.PNG" style="display: block;">
+    <img class="slides w3-animate-fading" src="file:///Users/colsonyankoff/Desktop/HTML%20Project/CDA06.PNG" style="display: none;">
+    <img class="slides w3-animate-fading" src="file:///Users/colsonyankoff/Desktop/HTML%20Project/CDA07.PNG" style="display: none;">
+    
+    <audio controls="">
+        <source src="sunsetlover.mp3" type="audio/mpeg">
+    </audio>
+
+</div>
+    
+<div class="w3-content">
+    <video controls="" class="vids" src="lake.mov" style="display: block;"></video> 
+    <video controls="" class="vids" src="boat.mov" style="display: none;"></video> 
+    <video controls="" class="vids" src="saddle2.mov" style="display: none;"></video> 
+    
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    
+</div>
+    
+<div>
+    <img class="wa w3-animate-fading" src="file:///Users/colsonyankoff/Desktop/HTML%20Project/wa00.PNG" style="display: none;">
+    <img class="wa w3-animate-fading" src="file:///Users/colsonyankoff/Desktop/HTML%20Project/wa01.PNG" style="display: none;">
+    <img class="wa w3-animate-fading" src="file:///Users/colsonyankoff/Desktop/HTML%20Project/wa02.PNG" style="display: none;">
+    <img class="wa w3-animate-fading" src="file:///Users/colsonyankoff/Desktop/HTML%20Project/wa03.PNG" style="display: none;">
+    <img class="wa w3-animate-fading" src="file:///Users/colsonyankoff/Desktop/HTML%20Project/wa04.PNG" style="display: none;">
+    <img class="wa w3-animate-fading" src="file:///Users/colsonyankoff/Desktop/HTML%20Project/wa05.PNG" style="display: block;">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("slides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 10000); 
+}
+</script>
+    
+<script>
+var myIndex2 = 0;
+show();
+
+function show() {
+  var i;
+  var x = document.getElementsByClassName("wa");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex2++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(show, 10000); 
+}
+</script>
+    
+<script>
+    var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("vids");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+
+</body></html>
