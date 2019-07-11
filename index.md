@@ -19,7 +19,7 @@ How to Build a Low-tech Internet, Low-Tech Magazine
 
 ### HTML Self-Portrait
 
-[LINK](file:///Users/colsonyankoff/Desktop/HTML%20Project/SelfPortrait.html)
+[LINK](SelfPortrait.html)
 
 ### Reflection
 
