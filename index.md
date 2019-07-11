@@ -19,7 +19,7 @@ How to Build a Low-tech Internet, Low-Tech Magazine
 
 ### HTML Self-Portrait
 
-[LINK](SelfPortrait.html)
+
 
 ### Reflection
 
