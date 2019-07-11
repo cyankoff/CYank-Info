@@ -25,7 +25,7 @@ I have never written or coded anything in HTML before this assignment. The task 
 
 ### HTML Self-Portrait
 
-[Self-Portrait](SelfPortrait.html)
+[Self-Portrait](final.html)
 
 ### Reflection
 
