@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>W3.CSS</title>
+<meta name="show" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {
+    background-color: lightcyan
+} 
+.slides {
+    display:none;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%; 
+    border-radius: 90px;
+}
+    
+.wa {
+    display:none;
+    margin-left: auto;
+    margin-right: auto;
+    width:75%; 
+    border-radius: 90px;
+    position:relative;
+    top:120px;
+}
+    
+.vids {
+    margin-left: auto; 
+    margin-right: auto;
+    width:50%;
+    position:relative;
+    top:60px;
+}
+    
+</style>
+</head>
+
+<body>
+
+<h1 class="w3-center">"Just a Glimpse"</h1>
+
+<div class="w3-content w3-section" >
+    <img class="slides w3-animate-fading" src="CDA00.PNG" >
+    <img class="slides w3-animate-fading" src="CDA01.png" >
+    <img class="slides w3-animate-fading" src="CDA02.PNG" >
+    <img class="slides w3-animate-fading" src="CDA05.PNG" >
+    <img class="slides w3-animate-fading" src="CDA03.PNG" >
+    <img class="slides w3-animate-fading" src="CDA04.PNG" >
+    <img class="slides w3-animate-fading" src="CDA06.PNG" >
+    <img class="slides w3-animate-fading" src="CDA07.PNG" >
+    
+    <audio controls>
+        <source src="sunsetlover.mp3" type="audio/mpeg">
+    </audio>
+
+</div>
+    
+<div class="w3-content">
+    <video controls class="vids" src="lake.mov"></video> 
+    <video controls class="vids" src="boat.mov"></video> 
+    <video controls class="vids" src="saddle2.mov"></video> 
+    
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)" >&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)" >&#10095;</button>
+    
+</div>
+    
+<div>
+    <img class="wa w3-animate-fading" src="wa00.PNG" >
+    <img class="wa w3-animate-fading" src="wa01.PNG" >
+    <img class="wa w3-animate-fading" src="wa02.PNG" >
+    <img class="wa w3-animate-fading" src="wa03.PNG" >
+    <img class="wa w3-animate-fading" src="wa04.PNG" >
+    <img class="wa w3-animate-fading" src="wa05.PNG" >
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("slides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 10000); 
+}
+</script>
+    
+<script>
+var myIndex2 = 0;
+show();
+
+function show() {
+  var i;
+  var x = document.getElementsByClassName("wa");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex2++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(show, 10000); 
+}
+</script>
+    
+<script>
+    var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("vids");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
+
