@@ -17,9 +17,15 @@ How to Build a Low-tech Internet, Low-Tech Magazine
 
 ## Week 3
 
+I have never written or coded anything in HTML before this assignment. The task was intriguing to me, but I had virtually  no idea how to even start. I began by studying the examples you have us for the picture and videos. This helped me at least start to understand what is even possible to do with HTML. I then brainstormed some ideas to determine how I wanted to portray myself to the class, and what medium I wanted to use to accomplish this. I decided that pictures and videos would convey the information I wanted to the class in the most efficient way possible. I am from north Idaho, and most people do not have any idea what this place actually looks like. I wasted to face the class a look at how I grew up, and what my life has looked like up to this point.
+	I began by looking through the past six to seven years of pictures on my phone and computer to determine what images and videos would best represent my experiences in life. I decided that I wanted to show images that I felt would give an accurate depiction of where I am from, Idaho. When people think of Idaho, they think of farms, wide open fields, and potatoes. I wanted to show people that it is so much more than that,  so the media I chose represents this idea. Shown are pictures of landscape, as well as sports and friend experiences from high school. My intent is for people to appreciate my hometown and understand a little bit about where I’m from.
+	From Idaho, football offered me the opportunity to attend the University of Washington. I left my small city in Idaho for the bustling city of Seattle. This is why the next portion of my project focuses on this season of my life. I played football there, and was blessed to be able to have many amazing experiences in this city. Some of my favorite moments were captured on camera. These are meant to show yet another part of the journey that is my life, because all these experiences are what led me to where I am today.
+	Learning how to code using HTML, JS, and some CSS has been quite the eye opening experience throughout the course of this project. I had zero idea how to code in any of the ideas that I wanted to do. This made it quite difficult to evcen find a place to start. So I started by taking the images that I wanted to used and figuring out how to insert them into a web page. From here, I learned how to create a slideshow using the pictures. Transitions were soon added as well as some audio to add to the experience. I then used a similar procedure with the videos and had a lot of fun with the project as I learned.
+	Overall, I would say this was very challenging, but learning how to code and use my computer more to its extent has brought me much fulfillment. I look forward to learning more and producing better work in the future!
+
 ### HTML Self-Portrait
 
-
+[Self-Portrait](SelfPortrait.html)
 
 ### Reflection
 
